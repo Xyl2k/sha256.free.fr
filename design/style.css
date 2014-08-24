@@ -1,0 +1,111 @@
+/* 
+/////*Kit Graphique pour Kits-Gratuits.net*\\\\\
+Interface de CatWeb (Bonnepomme.net)
+Découpe   de CatWeb (Bonnepomme.net)
+*/
+
+/* Configuration Générale */
+
+body {
+	background: #353d3f;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#global {
+	width: 605px;
+	margin: 65px auto 0 auto;
+	background: black;
+}
+
+p {color: white}
+
+/* Configuration du Header */
+
+#header {
+	height: 144px;
+	background: url(images/interface/bg_head.jpg) no-repeat;
+	text-indent: -9000px;
+}
+
+/* Configuration de la SideBar(#sidebar) */
+
+#sidebar {
+	width: 140px;
+	float: left;
+	margin: 13px 0 0 0;
+	padding: 8px 0 15px 0;
+	border-right: 1px dashed white;
+}
+
+#sidebar h2 {
+	margin: 10px 0 4px 8px;
+	font-size: 0.80em;
+	color: #b3e9ff;
+}
+
+#sidebar h2:first-letter {
+	color: white;
+	font-size: 1.25em;
+}
+#sidebar ul {
+	margin: 0 0 2px 0; 
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar li {
+	font-size: 0.7em;
+	margin: 0 0 0 5px;
+}
+
+#sidebar a {
+	color: white;
+	text-decoration: none;
+}
+
+#sidebar a:hover{
+	color: #ffb619;
+	text-decoration: underline;
+}
+
+/* Configuration du Contenu(#contenu) */
+
+#contenu {
+	width: 445px;
+	margin: -5px 0 0 155px;
+}
+
+#contenu h2 {
+	font-size: 0.8em;
+	color: #fff;
+	margin: 3px 0 5px 12px;
+	text-decoration: underline;
+}
+
+#contenu p {
+	margin: 2px 0 5px 0;
+	font-size: 0.7em;
+}
+
+#contenu a {color: #9ee6ff}
+#contenu a:hover {color: #0f7ea4}
+
+/* Configuration du Footer(#footer) */
+
+#footer {
+	clear: both;
+	margin: 10px 0 0 155px;
+	height: 20px;
+	line-height: 20px;
+	width: 65%;
+	border-top: 1px dashed white;
+	font-size: 0.60em;
+	text-align: center;
+}
+
+#footer a {color: #fff}
+#footer a:hover {text-decoration: none;}
+li
+{
+	color:#FFFFFF;
+}
